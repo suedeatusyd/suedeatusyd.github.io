@@ -23,7 +23,7 @@
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-gradient">
     <div class="container">
-      <h1 class=""><a class="navbar-brand" href="/"><img style="height: 2rem;" class="align-middle" src="images/suede_logo.svg" alt="SUEDE"></a></h1>
+      <a class="navbar-brand" href="/"><img style="height: 2rem;" class="align-middle" src="images/suede_logo.svg" alt="SUEDE"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,6 +38,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#calendar">Calendar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
           </li>
         </ul>
         <!-- Social Media Bar -->
@@ -75,7 +78,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron text-light bg-indigo" style="background-image:url(images/swirl.jpg); background-size: cover;">
       <div class="container">
-        <h1 class="display-3">Hey there!</h1>
+        <h1 class="display-4 font-weight-bold">Sydney University Experience Designers</h1>
         <p>We’re SUEDE, a society driven by students passionate about the design of everyday interactions, services, and experiences.</p>
       </div>
     </div>
@@ -112,21 +115,32 @@
       <div class="embed-responsive embed-responsive-16by9">
         <iframe title="SUEDE Calendar" id="calendar" class="embed-responsive-item" src="https://calendar.google.com/calendar/b/1/embed?src=c3VlZGUuc3lkbmV5QGdtYWlsLmNvbQ"></iframe>
       </div>
+      <h2 id="sponsors">Sponsors</h2>
+      <div class="row justify-content-around">
+        <div class="col-md-4 text-center">
+          <h3>University of Sydney Union</h3>
+          <img src="images/usu_logo.png" class="img-fluid">
+          <p>The USU is a not-for-profit organisation whose purpose is be the heart of campus life and they've been doing that since 1874.</p>
+          <p>USU provides key programs, services and facilities that enhance campus life for the many thousands who join and interact with them. All income the USU receives is reinvested in their organisation for the benefit of current and future members of the University community.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2>The University of Sydney School of Architecture, Design and Planning</h2>
+          <img src="images/adp_logo.svg" class="img-fluid">
+          <p>International leader in architecture, design and planning</p>
+          <p>Ranked 1st in Australia and 15th in the world for Architecture/Built Environment in the QS World University Rankings 2019, The University of Sydney School of Architecture, Design and Planning are a dedicated and ambitious community of staff, researchers and students.</p>
+        </div>
+      </div>
       <hr>
     </div> <!-- /container -->
 
   </main>
 
-  <footer class="container d-lg-flex justify-content-between">
+  <footer class="container d-md-flex justify-content-between text-center">
     <p>&copy; Sydney University Experience Designers 2019</p>
     <p>Supported by the <a href="https://www.usu.edu.au/">USU</a>. Independently run and managed.</p>
   </footer>
 
   <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
   <script>
     WebFont.load({
@@ -136,6 +150,10 @@
     });
 
   </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
