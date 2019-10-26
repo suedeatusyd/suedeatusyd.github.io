@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--  Custom CSS-->
   <link rel="stylesheet" href="custom.css">
+  <!--  SEO Tags-->
   <title>Sydney University Experience Designers &lbrack;SUEDE&rbrack;</title>
   <meta name="description" content="SUEDE is a society driven by students passionate about the design of everyday interactions, services, and experiences.">
   <!-- Favicon -->
@@ -21,7 +23,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-gradient">
+  <nav class="navbar navbar-expand-md navbar-dark bg-gradient">
     <div class="container">
       <a class="navbar-brand" href="/"><img style="height: 2rem;" class="align-middle" src="images/suede_logo.svg" alt="SUEDE"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,9 +37,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#executive">Executive</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#calendar">Calendar</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#sponsors">Sponsors</a>
@@ -74,9 +73,7 @@
   </nav>
 
   <main role="main">
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron text-light bg-indigo" style="background-image:url(images/swirl.jpg); background-size: cover;">
+    <div class="jumbotron jumbotron-fluid text-light bg-swirl">
       <div class="container">
         <h1 class="display-4 font-weight-bold">Sydney University Experience Designers</h1>
         <p>We’re SUEDE, a society driven by students passionate about the design of everyday interactions, services, and experiences.</p>
@@ -84,19 +81,18 @@
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md">
-          <h2>We do:</h2>
-          <h3>Projects</h3>
+        <section class="col-md">
+          <h1>We do:</h1>
+          <h2>Projects</h2>
           <p>Collaborate and gain practical experience to build your portfolio!</p>
-          <h3>Social</h3>
+          <h2>Social</h2>
           <p>Make friends and join the design community at The University of Sydney!</p>
-          <h3>Industry</h3>
+          <h2>Industry</h2>
           <p>Get advice from industry professionals and prepare yourself for the workforce!</p>
-        </div>
-        <div class="col-md">
-          <h2 id="executive">2019&ndash;2020 Executive</h2>
+        </section>
+        <section class="col-md">
+          <h1 id="executive">Executive:</h1>
           <ul>
             <li>President – Margaux Thwaites</li>
             <li>Secretary – Margarette Nguyen</li>
@@ -110,29 +106,22 @@
             <li>Safety Officer – Katia Moors</li>
             <li>General Executive – Jonathan Ma, Aaron Ngo, Nabil Hasan</li>
           </ul>
-        </div>
+        </section>
       </div>
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe title="SUEDE Calendar" id="calendar" class="embed-responsive-item" src="https://calendar.google.com/calendar/b/1/embed?src=c3VlZGUuc3lkbmV5QGdtYWlsLmNvbQ"></iframe>
-      </div>
-      <h2 id="sponsors">Sponsors</h2>
-      <div class="row justify-content-around">
-        <div class="col-md-4 text-center">
-          <h3>University of Sydney Union</h3>
-          <img src="images/usu_logo.png" class="img-fluid" alt="Supported by USU logo">
-          <p>The USU is a not-for-profit organisation whose purpose is be the heart of campus life and they've been doing that since 1874.</p>
-          <p>USU provides key programs, services and facilities that enhance campus life for the many thousands who join and interact with them. All income the USU receives is reinvested in their organisation for the benefit of current and future members of the University community.</p>
+      <section>
+        <h1 id="sponsors">Sponsors:</h1>
+        <div class="row justify-content-around">
+          <div class="col-md mb-4">
+            <h2>University of Sydney Union</h2>
+            <img src="images/usu_logo.png" alt="Supported by USU logo" class="img-sponsor">
+          </div>
+          <div class="col-md mb-4">
+            <h2>The University of Sydney School of Architecture, Design and Planning</h2>
+            <img src="images/adp_logo.svg" alt="The University of Sydney School of Architecture, Design and Planning logo" class="img-sponsor">
+          </div>
         </div>
-        <div class="col-md-4 text-center">
-          <h2>The University of Sydney School of Architecture, Design and Planning</h2>
-          <img src="images/adp_logo.svg" class="img-fluid" alt="The University of Sydney School of Architecture, Design and Planning logo">
-          <p>International leader in architecture, design and planning</p>
-          <p>Ranked 1st in Australia and 15th in the world for Architecture/Built Environment in the QS World University Rankings 2019, The University of Sydney School of Architecture, Design and Planning are a dedicated and ambitious community of staff, researchers and students.</p>
-        </div>
-      </div>
-      <hr>
-    </div> <!-- /container -->
-
+      </section>
+    </div><!-- /container -->
   </main>
 
   <footer class="container d-md-flex justify-content-between text-center">
@@ -140,17 +129,8 @@
     <p>Supported by the <a href="https://www.usu.edu.au/">USU</a>. Independently run and managed.</p>
   </footer>
 
-  <!-- Optional JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <script>
-    WebFont.load({
-      google: {
-        families: ['Source Sans Pro:400,700']
-      }
-    });
-
-  </script>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="/js/post.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
