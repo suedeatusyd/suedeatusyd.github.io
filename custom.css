@@ -26,7 +26,7 @@ h6 {
 
 .bg-swirl {
   background-color: #2d368f;
-  background-image: url(images/swirl.jpg);
+  background-image: url(/images/swirl.jpg);
   background-size: cover;
 }
 
