@@ -41,9 +41,8 @@ h6 {
   vertical-align: text-top;
 }
 
-.img-sponsor {
-  max-width: 16rem;
+.img-xconstraint {
   max-height: 8rem;
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
 }
