@@ -2,11 +2,13 @@ body {
   font-family: 'Source Sans Pro';
 }
 
-.navbar .navbar-nav-svg {
-  display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
-  vertical-align: text-top;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
 }
 
 .bg-grape {
@@ -20,4 +22,27 @@ body {
 .bg-gradient {
   background-image: linear-gradient(#814097, #2d368f) !important;
   background-color: #814097 !important;
+}
+
+.bg-swirl {
+  background-color: #2d368f;
+  background-image: url(/images/swirl.jpg);
+  background-size: cover;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.navbar .navbar-nav-svg {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: text-top;
+}
+
+.img-xconstraint {
+  max-height: 8rem;
+  height: 100%;
+  width: auto;
 }
