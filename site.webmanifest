@@ -1,5 +1,5 @@
 {
-    "name": "SUEDE",
+    "name": "Sydney University Experience Designers",
     "short_name": "SUEDE",
     "icons": [
         {
@@ -13,6 +13,6 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#814097",
-    "background_color": "#814097"
+    "theme_color": "#2d368f",
+    "background_color": "#2d368f"
 }

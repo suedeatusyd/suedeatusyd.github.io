@@ -1,2 +1,4 @@
 # suedeatusyd.github.io
-The website for SUEDE
+The official website for Sydney University Experience Designers.
+## Built With
+* [Bootstrap](https://getbootstrap.com/) - The web framework used

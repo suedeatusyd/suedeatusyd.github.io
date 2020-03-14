@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #2d368f;
+  --color-secondary: #814097;
+}
+
+body {
+  font-family: 'Source Sans Pro';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.bg-gradient-in {
+  background-image: linear-gradient(var(--color-primary), var(--color-secondary)) !important;
+  background-color: var(--color-grape) !important;
+}
+
+.bg-gradient-out {
+  background-image: linear-gradient(var(--color-secondary), var(--color-primary)) !important;
+  background-color: var(--color-primary) !important;
+}
+
+.content {
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+}
